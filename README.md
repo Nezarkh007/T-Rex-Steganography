@@ -81,11 +81,6 @@ Enter password: mysecret123
 
 ---
 
-## 📜 License
-
-This project is licensed under the [](LICENSE).
-
----
 
 ## 🙋‍♂️ Author
 
