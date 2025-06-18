@@ -1,5 +1,5 @@
 
-# 🕵️‍♂️ Python Steganography Tool v1.0
+# 🕵️‍♂️ T-Rex Steganography Tool v1.0
 
 A simple yet powerful Python-based **steganography tool** that lets you hide secret messages inside images.  
 It supports **password-protected encryption**, **manual or file-based input**, and works with **PNG/BMP images** using LSB (Least Significant Bit) encoding.
