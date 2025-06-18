@@ -1,3 +1,5 @@
+STILL WORKING ON IT 👍
+
 # 🕵️‍♂️ T-Rex Steganography Tool 
 
 A simple yet powerful Python-based **steganography tool** that lets you hide secret messages inside images.  
