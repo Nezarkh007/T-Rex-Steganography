@@ -22,10 +22,9 @@ It supports **password-protected encryption**, **manual or file-based input**, a
 
 ## 🛠️ Requirements
 
-python3 -m venv venv
-source venv/bin/activate
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🚀 Usage encrypte
