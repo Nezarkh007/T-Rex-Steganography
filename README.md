@@ -1,4 +1,3 @@
-STILL WORKING ON IT 👍
 
 # 🕵️‍♂️ T-Rex Steganography Tool 
 
