@@ -3,18 +3,17 @@ import stepic
 from cryptography.fernet import Fernet
 import base64
 
-# Generate Fernet key from password (same as encryption)
+
 def generate_key(password):
     return base64.urlsafe_b64encode(password.ljust(32)[:32].encode())
 
-# Decrypt the message using Fernet
+
 def decrypt_message(encrypted_text, password):
     key = generate_key(password)
     cipher = Fernet(key)
     decrypted = cipher.decrypt(encrypted_text.encode())
     return decrypted.decode()
 
-# Extract and decrypt hidden message from image
 def decode_steganography(image_path):
     try:
         img = Image.open(image_path)
