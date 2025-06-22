@@ -22,11 +22,9 @@ It supports **password-protected encryption**, **manual or file-based input**, a
 
 ## 🛠️ Requirements
 
-Install dependencies via `pip`:
-
-```bash
-pip install pillow stepic cryptography colorama
-```
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 
 ---
 
@@ -55,24 +53,15 @@ Then follow the CLI instructions to:
 
 ## 🧪 Example
 
-**Encoding a message:**
-```text
-Enter image name or path: input.png
-[01] Enter text manually
-Enter the text to encode: Hello world!
-Do you want to provide a password? (Y/N): y
-Enter password: mysecret123
-Enter filename to save: secret_output.png
-✅ Encoded image saved as secret_output.png
-```
+🖼️ Enter the image file path (e.g., image.png): my_image.png
+✅ Image loaded successfully!
+Image format: PNG
+Image size: (512, 512)
+Image mode: RGB
+📜 Give me the text that you want to hide in the image: Hello Nezar
+🔐 Give me the password to encrypt it: nezar2025
+✅ The message has been hidden and saved as 'stego_image.png'.
 
-**Decoding a message:**
-```text
-Enter encoded image path: secret_output.png
-🔒 This image has a password-protected message.
-Enter password: mysecret123
-✅ Decoded message: Hello world!
-```
 
 ---
 
