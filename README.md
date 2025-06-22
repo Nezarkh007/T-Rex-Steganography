@@ -59,12 +59,16 @@ python decryption.py
 ## 🧪 Example
 
 🖼️ Enter the image file path (e.g., image.png): my_image.png
+
 ✅ Image loaded successfully!
 Image format: PNG
 Image size: (512, 512)
 Image mode: RGB
+
 📜 Give me the text that you want to hide in the image: Hello Nezar
+
 🔐 Give me the password to encrypt it: nezar2025
+
 ✅ The message has been hidden and saved as 'stego_image.png'.
 
 
