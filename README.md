@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Usage
+## 🚀 Usage encrypte
 
 Run the tool:
 
@@ -44,6 +44,13 @@ Then follow the CLI instructions to:
 3. Optionally encrypt with a password
 4. Save the new stego image
 
+## 🚀 Usage decrypte
+
+Run the tool:
+
+```bash
+python decryption.py
+```
 ### 🔓 Decode
 1. Load the encoded image
 2. If encrypted, enter password to decrypt
